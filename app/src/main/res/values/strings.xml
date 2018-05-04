@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Prayer Trainer</string>
+    <string name="mornNote">Morning Notification Time:</string>
+    <string name="aftnote">Afternoon Notification Time:</string>
+    <string name="evenote">Evening Notification Time:</string>
+    <string name="timeHint">Format-> hh:mm AM/PM</string>
+    <string name="upTimes">Update Times</string>
+    <string name="OK">OK</string>
+    <string name="howToUse">How to Use</string>
+    <string name="SetYourNotifications">Set your Notifications</string>
+    <string name="rationaleTitle">Overview</string>
+
+    <string name="rationale1">
+        \t\t\tPrayer is as essential as breathing to a healthy relationship with God through Jesus Christ. Disciples must cultivate a discipline of prayer, so that it becomes natural.\n\n
+
+        \t\t\tDavid, a man after God’s own heart, speaks of praying three times a day.
+    </string>
+    <string name="rationale2">
+            <i>&quot;But I call to God, and the LORD will save me. Evening and morning and at noon I utter my complaint and moan, and he hears my voice.&quot; \nPsalm 55:16–17</i>\n\n
+    </string>
+    <string name="rationale3">
+        \t\t\tDaniel, a godly man known for his discipline in prayer, prayed three times a day.
+    </string>
+    <string name="rationale4">
+            <i>&quot;He got down on his knees three times a day and prayed and gave thanks before his God, as he had done previously.&quot; \nDaniel 6:10</i>\n\n
+    </string>
+    <string name="rationale5">
+        \t\t\tHis prayer in times of distress reflected a routine, not simply an emergency meeting with God. Gratitude governed his outlook.\n\n
+
+        \t\t\tPrayer Trainer is a simple tool to help develop a discipline of prayer. It provides push notifications to pray three times a day – morning (as we begin the day with God), midday (in the thick of our day), and evening (as our day draws to a close). Each period of prayer could be as brief as 5 minutes.\n\n
+
+        \t\t\tThe Morning Prayer devotes the day ahead to God. A Scripture-rich prayer will help kick start your day, like caffeine for your soul. As you turn your face to God, commit your day to Him, looking to glorify and enjoy Him, laying the activities of the day before Him, enlisting His help to honor Him throughout.\n\n
+
+        \t\t\tThe Midday Prayer delights in God, resting in His presence. You will receive a portion of a psalm to reflect on and respond to God. Cast your cares upon Him and pray for others and your church.\n\n
+
+        \t\t\tThe Evening Prayer debriefs with God. Whether a separate time or as you lie on your bed to sleep, spend time reviewing your day, thanking God, confessing sin, entrusting yourself to Christ.\n\n
+
+        \t\t\tMay God grant you an awareness of His presence with you throughout each day.\n\n
+    </string>
+    <string name="howToUseDetails">
+        \t\t\tThis app is designed to help you develop and sustain a discipline of prayer through daily reminders and Scriptural prompts.\n\n
+
+        \t\t\tReminders are given three times a day (see Overview for rationale): morning, midday, and evening. Times for these notifications to your home screen are pre-set for 7 am, noon, and 7 pm. To set your own times, go to “Set Your Notifications.”\n\n
+
+        \t\t\tClicking on a morning notification will remind you of areas for prayer as you begin your day with God, and open up a Scripture-rich daily prayer, one for each day of the year.\n\n
+
+        \t\t\tClicking on a midday notification will remind you of areas for prayer as you walk with God, and provide a portion of a psalm to interact with Him.\n\n
+
+        \t\t\tClicking on an evening notification will remind you of areas for prayer as you review your day with God, responding to Him.\n\n
+
+        \t\t\tIf you missed or dismissed a notification and would like to return to it, click on Daily Prayer Prompts found on the home page of the app.\n\n
+    </string>
+    <string name="scriptureForReflection">Scripture for Reflection</string>
+    <string name="morningOption">Morning: Daily prayer</string>
+    <string name="middayOption">Mid-day Psalms</string>
+    <string name="refresh">Refresh</string>
+    <string name="how_to_use_this_app">How To Use</string>
+    <string name="about">About</string>
+    <string name="ptrainer">Prayer Trainer</string>
+    <string name="overview">Overview</string>
+
+    <string name="creditsText">
+        Concept: Stan Gale\n\n
+        Developer: Eli Smith\n\n
+        Prayers for the day are taken from <i>According to the Word of the Lord: A Prayer for Every Day of the Year in the Language of Scripture</i> by Don Powell. Used by permission.\n\n
+        Psalm quotations are taken from <i>The Holy Bible: English Standard Version</i>, ©2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved.\n\n
+
+        Morning Prayer for the Day (366 dated prayers)\n\n
+        Midday Psalter Portion (312 passages, 6 per week)
+    </string>
+    <string name="aboutThisApp">About This App</string>
+</resources>

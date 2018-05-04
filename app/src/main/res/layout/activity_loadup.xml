@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoadupActivity">
+
+    <TextView
+        android:id="@+id/ppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/ptrainer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="@drawable/button_round_corners"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/overview"
+        android:id="@+id/rationaleButton"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/ppTitle"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToRationale"/>
+
+    <Button
+        android:background="@drawable/button_round_corners"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/howToUse"
+        android:id="@+id/howToUseButton"
+        android:layout_below="@+id/rationaleButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="goToAboutApp"/>
+
+    <Button
+        android:background="@drawable/button_round_corners"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/SetYourNotifications"
+        android:id="@+id/setNotificationsButton"
+        android:layout_below="@+id/howToUseButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="goToNotifications"/>
+
+    <Button
+        android:background="@drawable/button_round_corners"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/scriptureForReflection"
+        android:id="@+id/scriptureForReflectionButton"
+        android:layout_marginTop="30dp"
+        android:onClick="goToScripture"
+        android:layout_below="@+id/setNotificationsButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scriptureForReflectionButton"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round_corners"
+        android:text="@string/about"
+        android:onClick="goToCredits"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

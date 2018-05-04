@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".TimeSetActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/mornNote"
+        android:id="@+id/morningTitle"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/aftnote"
+        android:id="@+id/afternoonTitle"
+        android:layout_below="@+id/morningTimeField"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/evenote"
+        android:id="@+id/eveningTitle"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/afternoonTimeField"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/morningTimeField"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/morningTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/timeHint"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/afternoonTimeField"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/afternoonTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/timeHint"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/eveningTimeField"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eveningTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/timeHint"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:background="@drawable/button_round_corners"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/upTimes"
+        android:id="@+id/updateButton"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/eveningTimeField"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="updateTimes"/>
+</RelativeLayout>
