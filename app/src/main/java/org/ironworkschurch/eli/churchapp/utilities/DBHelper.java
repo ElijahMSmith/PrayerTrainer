@@ -15,6 +15,9 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
+import org.ironworkschurch.eli.churchapp.verses.AfternoonVerse;
+import org.ironworkschurch.eli.churchapp.verses.MorningVerse;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
