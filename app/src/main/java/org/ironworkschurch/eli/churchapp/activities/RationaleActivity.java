@@ -1,4 +1,4 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.activities;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -10,6 +10,8 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.ironworkschurch.eli.churchapp.R;
 
 public class RationaleActivity extends AppCompatActivity {
 

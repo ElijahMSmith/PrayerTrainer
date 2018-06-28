@@ -62,11 +62,14 @@
     <string name="creditsText">
         Concept: Stan Gale\n\n
         Developer: Eli Smith\n\n
-        Prayers for the day are taken from <i>According to the Word of the Lord: A Prayer for Every Day of the Year in the Language of Scripture</i> by Don Powell. Used by permission.\n\n
-        Psalm quotations are taken from <i>The Holy Bible: English Standard Version</i>, ©2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved.\n\n
-
-        Morning Prayer for the Day (366 dated prayers)\n\n
-        Midday Psalter Portion (312 passages, 6 per week)
+        Prayers for the day are taken from <i>According to the Word of the Lord: A Prayer for Every Day of the Year in the Language of Scripture</i>, ©2018 by Don Powell. Used by permission. All rights reserved.\n\n
+        Psalm quotations are taken from <i>The Holy Bible: English Standard Version</i>, ©2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved.
     </string>
     <string name="aboutThisApp">About This App</string>
+    <string name="feedbackbutton">FeedbackButton</string>
+    <string name="feedback"><![CDATA[<- Give Us feedback!]]></string>
+    <string name="yourmessage">Your Message</string>
+    <string name="youremail">Your Email</string>
+    <string name="yourname">Your Name</string>
+    <string name="HomeIcon">HomeIcon</string>
 </resources>

@@ -1,4 +1,4 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.utilities;
 
 /**
  * Created by elija on 4/16/2018.
@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import org.ironworkschurch.eli.churchapp.verses.AfternoonVerse;
 import org.ironworkschurch.eli.churchapp.verses.MorningVerse;
+import org.ironworkschurch.eli.churchapp.verses.Verse;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -75,7 +76,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS " + A_TABLE_NAME + "," + M_TABLE_NAME + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + A_TABLE_NAME + ", " + M_TABLE_NAME + ";");
         onCreate(db);
     }
 

@@ -1,9 +1,11 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.activities;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import org.ironworkschurch.eli.churchapp.R;
 
 public class AboutActivity extends AppCompatActivity {
 

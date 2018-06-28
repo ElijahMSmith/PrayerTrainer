@@ -1,4 +1,4 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.activities;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,6 +14,10 @@ import org.ironworkschurch.eli.churchapp.activities.TimeSetActivity;
 public class BootUpReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
+
+        if(intent.getAction() != null && intent.getAction().equalsIgnoreCase("BOOT_COMPLETED"))
+            return;
+
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
 
         //Just set them all. The method is engineered to deal with any odd cases.

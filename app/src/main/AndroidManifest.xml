@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.ironworkschurch.eli.churchapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
@@ -10,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".LoadupActivity"
+            android:name=".activities.LoadupActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,18 +26,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AboutActivity"
+            android:name=".activities.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PromptActivity"
+            android:name=".activities.PromptActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RationaleActivity"
+            android:name=".activities.RationaleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TimeSetActivity"
+            android:name=".activities.TimeSetActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".CreditsActivity"></activity>
+        <activity android:name=".activities.CreditsActivity" />
+        <receiver
+            android:name=".activities.AlarmReceiver"
+            android:enabled="true"/>
+        <receiver
+            android:name=".activities.BootUpReceiver"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.verses;
 
 /**
  * Created by Eli on 3/21/2018.

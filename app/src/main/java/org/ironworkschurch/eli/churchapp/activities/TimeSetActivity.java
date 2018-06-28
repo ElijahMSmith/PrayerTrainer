@@ -1,4 +1,4 @@
-package org.ironworkschurch.eli.churchapp;
+package org.ironworkschurch.eli.churchapp.activities;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.ironworkschurch.eli.churchapp.R;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
